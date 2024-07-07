@@ -50,7 +50,7 @@ const SkillItem = ({ Icon, text }: { Icon: any; text: string }) => (
 	</li>
 )
 
-export const HobbyItem = ({ Icon, text }: { Icon: any; text: string }) => (
+const HobbyItem = ({ Icon, text }: { Icon: any; text: string }) => (
 	<li className="h-10 group relative flex flex-col items-center">
 		<i>
 			<Icon className="text-3xl group-hover:rotate-[30deg] group-hover:scale-150 transition duration-300" />
