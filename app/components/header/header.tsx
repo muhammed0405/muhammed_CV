@@ -20,7 +20,7 @@ const navItems = [
 export default function Header() {
 	return (
 		<div className="bg-[#F2EEEE] z-10">
-			<div className="flex flex-col w-12 md:w-20 gap-10 md:justify-between md:h-full sticky top-1 border border-red-700">
+			<div className="flex flex-col w-12 md:w-20 gap-10 md:justify-between md:h-full sticky top-1 ">
 				<Image src={Logo} width={100} height={100} alt="Logo" />
 				<div className=""></div>
 				<nav>

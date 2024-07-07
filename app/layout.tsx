@@ -23,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<div className="flex md:w-[90%]  md:h-[90vh] border border-red-500 overflow-hidden">
+				<div className="flex w-[100vw] h-[100vh] 	md:w-[90%]  md:h-[90vh]  overflow-hidden">
 					<Header />
 					<div className=" relative hidden md:block shadow-[0px_0px_20px_7px_#1a202c] z-50 overflow-hidden">
 						<Image src={Profile} alt="muhammed" className="  h-[80%] z-5" />
