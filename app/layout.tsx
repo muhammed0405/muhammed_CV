@@ -23,7 +23,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<div className="flex w-[90%]  md:h-[90vh] border border-red-500 ">
+				<div className="flex md:w-[90%]  md:h-[90vh] border border-red-500 overflow-hidden">
 					<Header />
 					<div className=" relative hidden md:block shadow-[0px_0px_20px_7px_#1a202c] z-50 overflow-hidden">
 						<Image src={Profile} alt="muhammed" className="  h-[80%] z-5" />
@@ -40,17 +40,17 @@ export default function RootLayout({
 							<nav>
 								<ul className="flex items-center justify-center gap-5 pt-12">
 									<li className="text-4xl bg-white text-black transition-colors duration-300 ease-in-out rounded-full p-2 hover:text-white hover:bg-blue-600 hover:shadow-lg">
-										<Link href="/">
+										<Link href="https://t.me/muhammetnazar_05">
 											<FaTelegram />
 										</Link>
 									</li>
 									<li className="text-4xl bg-white text-black transition-colors duration-300 ease-in-out rounded-full p-2 hover:text-white hover:bg-blue-600 hover:shadow-lg">
-										<Link href="/">
+										<Link href="https://www.linkedin.com/in/muhammednazar-amatov-a23718310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
 											<FaLinkedin />
 										</Link>
 									</li>
 									<li className="text-4xl bg-white text-black transition-colors duration-300 ease-in-out rounded-full p-2 hover:text-white hover:bg-blue-600 hover:shadow-lg">
-										<Link href="/">
+										<Link href="https://github.com/muhammet2005">
 											<FaGithub />
 										</Link>
 									</li>
