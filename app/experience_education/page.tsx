@@ -106,7 +106,7 @@ export default function Experience() {
 
 			<p className="text-[1.2rem] text-gray-500  text-justify lg:2xl 3xl:text-3xl">
 				Completed four Udemy courses HTML, CSS (SASS, Flexbox, Grid),
-				JavaScript, and React, and built 10+ projects. Conducted a case study
+				JavaScript, and React, and built 5+ projects. Conducted a case study
 				project on {'"React vs. Vanilla" '}
 				{"'JavaScript'"} as part of personal development. Skilled in
 				implementing the Model-View-Controller (MVC) architecture in JavaScript

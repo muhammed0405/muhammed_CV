@@ -6,7 +6,7 @@ import Image, { StaticImageData } from "next/image"
 import TacoHub from "../assets/img/projects/tacohub.png"
 import Link from "next/link"
 import VoteDog from "../assets/img/projects/vote_dog.png"
-
+import ClickerGame from "../assets/img/projects/clicker_game.png"
 interface Props {
 	id: string
 	photo: StaticImageData
@@ -43,14 +43,21 @@ export default function Projects() {
 			img: TacoHub,
 			title: "TacoHub",
 			description: "application",
-			stack: "React,TS,Vite",
+			stack: "React,TS,Vite< Redux",
 		},
 		{
 			id: "2",
 			img: VoteDog,
 			title: "Doge Vote",
 			description: "application",
-			stack: "React,TS,Vite, Tailwind",
+			stack: "React,TS,Vite, Tailwind, Redux",
+		},
+		{
+			id: "3",
+			img: ClickerGame,
+			title: "Clicker Game",
+			description: "application",
+			stack: "React,Sass,Redux",
 		},
 	]
 	return (

@@ -92,7 +92,10 @@ export default function Contact() {
 							alt="telegram icon"
 						/>
 					</Link>
-					<Link href="https://www.linkedin.com/in/muhammednazar-amatov-a23718310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+					<Link
+						href="https://linkedin.com/in/muhammednazar-amatov-a23718310"
+						passHref={true}
+					>
 						<Image
 							className="w-12 sm:w-16 hover:rotate-[15deg] hover:scale-125 transition-all duration-300 "
 							src={LinkedinIcon}

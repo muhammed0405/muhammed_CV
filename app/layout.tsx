@@ -45,7 +45,7 @@ export default function RootLayout({
 										</Link>
 									</li>
 									<li className="text-4xl bg-white text-black transition-colors duration-300 ease-in-out rounded-full p-2 hover:text-white hover:bg-blue-600 hover:shadow-lg">
-										<Link href="https://www.linkedin.com/in/muhammednazar-amatov-a23718310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+										<Link href="https://linkedin.com/in/muhammednazar-amatov-a23718310">
 											<FaLinkedin />
 										</Link>
 									</li>
